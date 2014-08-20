@@ -4,8 +4,8 @@ Introduction
 
 This is a simple example of a Twilio Call/SMS Response App using Java Play Framework
 This App is 110% inspired by Michael Wawra's (aka @xmjw) excellent Twilio blog post/tutorial:
-https://www.twilio.com/blog/2014/08/play-with-twilio.html indeed I'm only posting it because I don't think Michael has got
-around to doing so yet (he's a very busy bunny). If you like this you should also checkout:
+https://www.twilio.com/blog/2014/08/play-with-twilio.html indeed I'm only posting the code because I don't think Michael 
+has got around to doing so yet (he's a very busy bunny). If you like this you should also checkout:
 https://github.com/xmjw/demo_2013-01-10
 
 Dependencies
