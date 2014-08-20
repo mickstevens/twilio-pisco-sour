@@ -60,6 +60,6 @@ If all else fails please feel free to contact me & I'll do the best I can to hel
 
 
 This is your new Play application
-=================================
+==================================
 
 This file will be packaged with your application, when using `activator dist`.
