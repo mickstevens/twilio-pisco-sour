@@ -1,3 +1,64 @@
+Twilio-Pisco-Sour
+
+Introduction
+
+This is a simple example of a Twilio Call/SMS Response App using Java Play Framework
+This App is 110% inspired by Michael Wawra's (aka @xmjw) excellent Twilio blog post/tutorial:
+https://www.twilio.com/blog/2014/08/play-with-twilio.html indeed I'm only posting it because I don't think Michael has got
+around to doing so yet (he's a very busy bunny). If you like this you should also checkout:
+https://github.com/xmjw/demo_2013-01-10
+
+Dependencies
+
+This App requires: 
+
+That you have Play 2.3 installed. Please see http://www.playframework.com/download or
+http://www.playframework.com/documentation/2.3.x/Installing for more information.
+
+A Twilio account (you should definitely have one of these already, shame on you if not! ;-)   ) 
+Please see: http://twilio.com/try-twilio to create an account & for more information.
+
+Ngrok . Please see https://ngrok.com/ for more information.
+
+Instructions
+
+1) Clone/Copy/Fork/Download the files in this repo to your corresponding Play App folder structure. 
+2) Install the Twilio dependencies for Play by typing 'activator dependencies' at the command line.
+3) Start ngrok as per your preference, for example typing 'ngrok 9000' at the command line will start ngrok on port 9000
+4) Start your Play App by typing 'activator run' at the command line in the root folder of your Play App.
+5) Configure your Twilio number to point to 'your ngrok forwarding url'/calls for Voice & 
+'your ngrok forwarding url'/messages for Messaging.
+6) Make a call and/or send an SMS to your Twilio number!
+
+Confirmation of correct operation
+
+If everything is working as intended, you should receive an announcement in response to a voice call to your Twilio number, 
+or an SMS reply in response to an SMS. You should also see a '200 OK' message in the console window where ngrok is running:
+
+HTTP Requests                                                         
+-------------                                                         
+                                                                      
+POST /calls                   200 OK                                  
+POST /messages                200 OK       
+
+Troubleshooting
+
+If you experience any problems with the App please follow the instructions in any error message received in the first
+instance (i.e. Google the error message to find the solution). The Twilio & Play websites (see above) are also invaluable 
+sources of information, debugging tools etc.
+
+If all else fails please feel free to contact me & I'll do the best I can to help! :-)
+
+@mickstevens
+
+
+
+
+
+
+
+
+
 This is your new Play application
 =================================
 
